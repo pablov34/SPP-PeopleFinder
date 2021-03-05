@@ -5,4 +5,6 @@ export interface ISppPeopleFinderState{
     loading:boolean;
     columns:IColumn[];
     selectedKey:string;
+    searchFor: string;
+    userProperties:IUserProperties[];
 }
