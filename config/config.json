@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spp-people-finder-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sppPeopleFinder/SppPeopleFinderWebPart.js",
+          "manifest": "./src/webparts/sppPeopleFinder/SppPeopleFinderWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SppPeopleFinderWebPartStrings": "lib/webparts/sppPeopleFinder/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

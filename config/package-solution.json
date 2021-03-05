@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spp-people-finder-client-side-solution",
+    "id": "b4a2a4fb-6654-48b1-86cf-b38a9b8faf10",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Directory.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spp-people-finder.sppkg"
+  }
+}
